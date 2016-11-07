@@ -1,6 +1,8 @@
 from main import replace_accented
 from sklearn import svm
 from sklearn import neighbors
+import nltk
+import collections
 
 # don't change the window size
 window_size = 10
